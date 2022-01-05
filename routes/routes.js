@@ -58,10 +58,18 @@ Character.create([
 // const findID3 = await Character.find();
 // const docs08 = await Character.findByIdAndRemove(findID3[2]._id);
 
-router.get("/", (req,res) => {
-    res.render("index", {
-        title: "Tytuł strony"
+router.get("/", async (req,res) => {
+
+    const findID = await Character.find();
+    await res.render("index", {
+        title: "Tytuł strony",
+        find: findID
     })
+})
+
+router.get('/posts', async (req,res) => {
+    const findID = await Character.find();
+    await res.json(findID);
 })
 
 module.exports = router;
