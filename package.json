@@ -1,0 +1,24 @@
+{
+  "name": "node_mongo_polaczenie_z_baza",
+  "version": "1.0.0",
+  "description": "## Szkolenie JS - 05.01.2022 - Bielsko Biała",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinDl/node_mongoose.git"
+  },
+  "keywords": [],
+  "author": "MarcinDl <marcindl@hotmail.com> (http://www.softlab.mem/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinDl/node_mongoose/issues"
+  },
+  "homepage": "https://github.com/MarcinDl/node_mongoose#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5"
+  }
+}
